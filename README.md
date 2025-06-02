@@ -6,25 +6,20 @@
 
 ### ✍️ 2. **Description courte**
 
-Une application simple qui permet de lister, creer et supprimer et de mettre à jour des tâches à faire. Il s'agit d'un projet que j'ai eu à faire dans le cadre d'une formation en flask sur udemy. 
+Une application simple qui permet de recuperer des memes de reddit via API "https://meme-api.com/gimme" . Il s'agit d'un projet que j'ai eu à faire dans le cadre d'une formation en flask sur udemy. 
 
 ![screenshot](./static/Capture%20d'écran%202025-06-02%20191850.png)
 
 
 ### 📸 3. **Capture d’écran du projet**
 
-![screenshot](./static/site_todo.png)
-
-Ajoute une image pour montrer à quoi ressemble ton projet (ça parle plus que 1000 mots).
+![screenshot](./static/meme_site.png)
 
 
 ### 🛠 4. **Fonctionnalités**
 
 ## Fonctionnalités
-- Ajout d'une tâche
-- suppréssion d'une tâche
-- mise à jour d'une tâche
-
+- Affichage des Memes.
 
 ### 🧑‍💻 5. **Comment exécuter le projet en local**
 
@@ -32,9 +27,17 @@ Ajoute une image pour montrer à quoi ressemble ton projet (ça parle plus que 1
 
 1. Clone le repo :
 
-git clone https://github.com/Elisee7/flask_todo_list.git
+git clone https://github.com/Elisee7/meme_site_in_flask.git
 
 
+2. Crée un environnement virtuel :
+
+py -m venv nom_de_env
+
+3. Activer l'environnement virtuel :
+
+nom_de_env/Scripts/activate (taper 'deactivate' pour quitter l'environnement).
+ 
 2. Execute cette commande pour installer les dependances : 
 
 pip install -r requirements.txt
@@ -53,7 +56,7 @@ http://127.0.0.1:5000
 ## Tech utilisées
 - HTML5
 - Bootstrap
-- flask & sql-alchemy
+- flask 
 
 
 ### 🧙 7. **Auteur**
